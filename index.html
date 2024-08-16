@@ -1,0 +1,101 @@
+<html lang="en"><head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>APIs Code!</title>
+    <link href="https://telegra.ph/file/dd3f870509abd5d65bcc5.jpg" rel="icon">
+    <link rel="stylesheet" href="https://ditz-apis-a2fb2c773048.herokuapp.com/css/swagger-theme-patched.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('https://telegra.ph/file/58d2a1be159595f9e7804.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .swagger-container {
+            width: 80%;
+            max-width: 1200px;
+            height: 90vh;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .swagger-ui .topbar {
+            display: none;
+        }
+
+        /* Popup styles */
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .popup h2 {
+            margin-top: 0;
+        }
+
+        .popup p {
+            margin-bottom: 20px;
+        }
+
+        .popup button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .popup button:hover {
+            background-color: #0056b3;
+        }
+
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="swagger-ui" class="swagger-container"></div>
+    <div class="popup-overlay" id="popupOverlay" style="display: block;"></div>
+    <div class="popup" id="popup" style="display: block;">
+        <h1>LISTEN UP, DEV!!!</h1>
+        <p>API ini akan di update oleh developer dan API ini gratis dan bisa berbayar kapan saja</p><h6>Yuki-chan REST APIs made by DitzOfc</h6><p></p>
+        <button onclick="closePopup()">OK!</button>
+    </div>
+
+    <script src="./docs-swagger.js"></script>
+    <script src="./swagger-bundle.js"></script>
+</body></html>
