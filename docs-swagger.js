@@ -22,13 +22,13 @@ window.onload = function() {
 const swaggerSpec = {
     "openapi": "3.0.0",
     "info": {
-        "title": "Docs Yuki-chan APIs",
-        "version": "1.0.1",
-        "description": "Jalankan semangat mu, Sukseskan proyek mu bersama Yuki-chan APIs!"
+        "title": "NDXZ APIs",
+        "version": "0",
+        "description": "By Andhika"
     },
     "servers": [
         {
-            "url": "https://ditz-apis-a2fb2c773048.herokuapp.com/api"
+            "url": "https://ndid.my.id/api"
         }
     ],
     "paths": {
