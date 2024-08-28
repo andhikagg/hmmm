@@ -7,18 +7,10 @@ function toggleNavbar() {
     }
 }
 
-function showPopup() {
-    document.getElementById("popup").style.display = 'block';
-    document.getElementById("popupOverlay").style.display = 'block';
-}
 
-function closePopup() {
-    document.getElementById("popup").style.display = 'none';
-    document.getElementById("popupOverlay").style.display = 'none';
-}
 
 window.onload = function() {
-    showPopup();
+    //showPopup();
 const swaggerSpec = {
     "openapi": "3.0.0",
     "info": {
